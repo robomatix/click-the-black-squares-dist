@@ -11,7 +11,6 @@ body {
 #click-the-black-squares {
     margin-top: 17px;
     background-color: #000;
-    border: 2px solid #000;
     width: 500px;
     height: 500px;
     margin-left: auto;
@@ -28,12 +27,77 @@ h1 {
     font-weight: normal;
     font-size: 1.25em;
 }
+
 h1 a {
     display: inline-block;
     width: 100%;
     color: orange;
     text-decoration: none;
 }
+
 h1 a:hover {
     text-decoration: underline;
 }
+
+#share {
+    margin-top: 15px;
+    border-top: 2px solid orange;
+    border-bottom: 2px solid orange;
+    padding: 10px 0 0 0;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-weight: normal;
+    font-size: 1.25em;
+}
+
+#share p {
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.45em;
+}
+
+#share a {
+    margin: 10px 5px;
+    width: 36px;
+    height: 36px;
+    display: inline-block;
+    background-image: url('../images/flat-social-icons.png');
+    background-repeat: no-repeat;
+}
+
+#share a.fb {;
+    background-position: 0px 0px;
+}
+
+#share a.fb:hover {
+    background-position: 0 -186px;
+}
+
+#share a.twitter {
+
+    background-position: -60px 0px;
+}
+
+#share a.twitter:hover {
+    background-position: -60px -186px;
+}
+
+#share a.google {
+    background-position: -240px 0px;
+}
+
+#share a.google:hover {
+    background-position: -240px -186px;
+}
+
+#share a.linked {
+    background-position: -120px -0px;
+}
+
+#share a.linked:hover {
+    background-position: -120px -186px;
+}
+
